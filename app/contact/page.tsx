@@ -1,0 +1,8 @@
+import type {Metadata} from 'next';
+import {Suspense} from 'react';
+import {Mail,MapPin,Phone,Clock} from 'lucide-react';
+import {PageBanner} from '@/components/SiteShell';
+import {ContactContent} from '@/components/ContactContent';
+import {brand} from '@/lib/data';
+export const metadata:Metadata={title:'Contact & Travel Enquiries',description:'Ask a question about a destination or share the kind of trip you are dreaming about.'};
+export default function Contact(){return <><PageBanner eyebrow="LET'S TALK TRAVEL" title={<>We'd love to hear <em>your ideas.</em></>} description="Have a destination in mind, or not quite sure where to start? Send us your travel question or enquiry."/><section className="section contact-section"><div className="container contact-grid"><div className="contact-aside"><h2>Every great journey<br/><em>starts somewhere.</em></h2><p>Tell us a little about the trip you have in mind. We welcome questions, ideas and travel-planning requests.</p><div className="contact-method"><span><Mail size={21}/></span><div><small>EMAIL</small><a href={`mailto:${brand.email}`}>{brand.email}</a></div></div><div className="contact-method"><span><Phone size={21}/></span><div><small>TELEPHONE</small><a href={`tel:${brand.phone.replace(/\s/g,'')}`}>{brand.phone}</a></div></div><div className="contact-method"><span><MapPin size={21}/></span><div><small>BASED IN</small><b>United Kingdom</b></div></div><div className="contact-note">Our travel website is currently enquiry-only. We do not confirm reservations, process payments or sell flights here.</div></div><Suspense fallback={<p>Loading enquiry form…</p>}><ContactContent/></Suspense></div></section></>}
