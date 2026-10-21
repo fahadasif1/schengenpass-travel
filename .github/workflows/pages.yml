@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://fahadasif1.github.io/schengenpass-travel
+          NEXT_PUBLIC_SITE_URL: https://schengenpass.co
       - uses: actions/upload-pages-artifact@v4
         with:
           path: out

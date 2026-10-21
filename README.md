@@ -21,7 +21,7 @@ The static site is exported to `out/`. GitHub Actions publishes that folder to G
 
 ## Site URL
 
-The current site URL is `https://fahadasif1.github.io/schengenpass-travel/`. When a custom domain is available, remove `basePath` from `next.config.ts`, update `NEXT_PUBLIC_SITE_URL` in `.github/workflows/pages.yml`, set the custom domain in GitHub Pages, and point the domain's DNS to GitHub Pages.
+The site is served at `https://schengenpass.co/` via GitHub Pages (custom domain set by `public/CNAME`; DNS at GoDaddy).
 
 ## Edit the site
 

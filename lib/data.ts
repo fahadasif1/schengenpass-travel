@@ -44,4 +44,4 @@ export const faqs = [
  {q:'Do the suggested destinations have fixed prices?',a:'No. There are no live prices or bookable inventory here. The planning budget is simply the amount you choose to set for your trip.'},
  {q:'How is my personal information used?',a:'Enquiry details are used to respond to your request. Please review the Privacy page before submitting personal information.'}
 ];
-export const brand = {name:'SchengenPass Travel',email:'info@schengenpass.co.uk',phone:'+44 7572 959766',url:'https://fahadasif1.github.io/schengenpass-travel'};
+export const brand = {name:'SchengenPass Travel',email:'info@schengenpass.co',phone:'+44 7572 959766',url:'https://schengenpass.co'};
