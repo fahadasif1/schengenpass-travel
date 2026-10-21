@@ -37,11 +37,11 @@ export const guides = [
 export const faqs = [
  {q:'Can I book and pay for a holiday on this website?',a:'Not at the moment. This website is designed for travel inspiration and planning enquiries. It does not accept holiday payments or confirm travel bookings.'},
  {q:'Do you arrange flights and accommodation?',a:'You can tell us what you are looking for, but no flight, hotel or travel service is reserved by submitting an enquiry. Any future booking services will be offered only after the required arrangements, disclosures and protections are in place.'},
- {q:'Is this the same business as SchengenPass.co.uk?',a:'SchengenPass Travel is presented as a proposed travel-focused brand alongside the existing SchengenPass website. The legal trading entity and relationship must be verified and disclosed before public launch.'},
+ {q:'Is this the same business as SchengenPass.co.uk?',a:'SchengenPass Travel is operated by SchengenPass Ltd, a company registered in England and Wales (company number 17321285). This website focuses on travel discovery and enquiries and does not offer visa services.'},
  {q:'Will I get a personalised itinerary?',a:'You can use our on-site trip planner to prepare a useful trip brief. If enquiry email delivery is enabled, you can send that brief to the team for a response. We do not promise a specific response time.'},
  {q:'Can you advise me on visas or immigration?',a:'This site does not provide immigration advice or visa decisions. For entry requirements, refer to the official authority for your destination or an appropriately authorised adviser.'},
  {q:'Are the destination itineraries and timings guaranteed?',a:'No. They are inspiration only. Travel times, attraction opening dates, availability and entry requirements must be independently confirmed before travel.'},
  {q:'Do the suggested destinations have fixed prices?',a:'No. There are no live prices or bookable inventory here. The planning budget is simply the amount you choose to set for your trip.'},
  {q:'How is my personal information used?',a:'Enquiry details are used to respond to your request. Please review the Privacy page before submitting personal information.'}
 ];
-export const brand = {name:'SchengenPass Travel',email:'info@schengenpass.co',phone:'+44 7572 959766',url:'https://schengenpass.co'};
+export const brand = {name:'SchengenPass Travel',email:'info@schengenpass.co',phone:'+44 7572 959766',url:'https://schengenpass.co',legalName:'SchengenPass Ltd',companyNumber:'17321285',jurisdiction:'England and Wales',address:'Office L15, Universal Square Business Centre, Devonshire Street North, Manchester M12 6JH'};
